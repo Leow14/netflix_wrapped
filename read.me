@@ -1,0 +1,111 @@
+📺 Netflix Wrapped
+
+Transforme seus dados da Netflix em insights, recomendações personalizadas e análises de perfil utilizando Python, Machine Learning e Power BI.
+
+🚀 Sobre o projeto
+
+O Netflix Wrapped é um projeto de análise de dados que:
+
+📊 Explora seu histórico de consumo da Netflix
+🤖 Gera recomendações personalizadas com Machine Learning
+🧠 Cria perfis de usuário com clustering
+📈 Apresenta tudo em um dashboard interativo no Power BI
+
+🧰 Stack utilizada
+🔹 Linguagens & Bibliotecas
+    Python
+    Pandas
+    NumPy
+    Scikit-learn
+🔹 Machine Learning
+    Random Forest Regressor
+    KMeans Clustering
+    PCA (Redução de dimensionalidade)
+🔹 Data Engineering
+    ETL com Python
+    Integração com API (TMDB)
+    Feature Engineering
+    One-Hot Encoding
+🔹 Visualização
+    Power BI
+
+📂 Como usar o projeto
+
+Siga o passo a passo abaixo para gerar seu próprio Netflix Wrapped:
+
+🔑 1. Solicitar seus dados da Netflix
+Acesse sua conta da Netflix
+Vá em Conta (canto superior direito)
+Clique em Segurança
+Acesse Acesso a Dados Pessoais
+Solicite seus dados e aguarde o envio por e-mail
+
+⏳ Esse processo pode levar alguns dias
+
+🔐 2. Criar chave da API (TMDB)
+
+Este projeto utiliza a API do TMDB para enriquecer os dados.
+
+Acesse: https://www.themoviedb.org/
+Crie uma conta gratuita
+
+Vá em:
+
+Settings → API
+Solicite uma API Key
+Após aprovação, copie sua chave
+
+Agora crie um arquivo .env na raiz do projeto da seguinte maneira:
+TMDB_KEY=SUA_CHAVE_API
+
+📥 3. Clonar o repositório
+git clone <URL_DO_REPOSITORIO>
+
+📁 4. Adicionar seus dados
+Extraia os arquivos recebidos da Netflix
+Copie a pasta data
+Cole na raiz do projeto
+
+⚙️ 5. Executar o pipeline principal
+python main.py
+
+Esse script irá:
+
+Processar seus dados
+Integrar com a API do TMDB
+Criar a base final para análise
+
+🤖 6. Gerar recomendações
+Rode o arquivo de recomendação:
+python ml/recomendacao.py
+
+Esse passo irá:
+
+Treinar o modelo
+Gerar recomendações personalizadas para cada perfil
+
+📊 7. Visualizar no Power BI
+Abra o arquivo .pbix
+Clique em Atualizar dados para cada tabela dentro do BI.
+
+✅ 8. Pronto!
+Agora você terá acesso ao seu próprio Netflix Wrapped 🎉
+
+Compare perfis
+Descubra padrões de consumo
+Veja recomendações personalizadas
+
+💡 Observações importantes
+Certifique-se de que o arquivo .env está configurado corretamente
+O projeto depende da API do TMDB para enriquecer os dados
+Algumas execuções podem levar tempo devido às chamadas na API
+
+📌 Contato
+Se tiver qualquer dúvida, sugestão ou quiser trocar uma ideia:
+💼 LinkedIn: https://www.linkedin.com/in/leo-amorim/
+💻 GitHub: https://github.com/Leow14
+⭐ Contribuição
+
+Sinta-se à vontade para abrir issues, sugestões ou melhorias!
+
+This product uses the TMDB API but is not endorsed or certified by TMDB.
